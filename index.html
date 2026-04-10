@@ -62,19 +62,7 @@
             }
         }
 
-        .greeting {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(14px, 2vw, 18px);
-            font-weight: 500;
-            letter-spacing: 6px;
-            text-transform: uppercase;
-            color: rgba(255, 255, 255, 0.5);
-            margin-bottom: 20px;
-            opacity: 0;
-            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.8s forwards;
-        }
-
-        .name {
+.name {
             font-family: 'Space Grotesk', sans-serif;
             font-size: clamp(48px, 10vw, 120px);
             font-weight: 700;
@@ -205,8 +193,7 @@
         /* ── Mobile landscape + small tablets ── */
         @media (max-width: 768px) {
             .content { padding: 0 20px; }
-            .greeting { letter-spacing: 4px; margin-bottom: 14px; }
-            .name { letter-spacing: -1px; margin-bottom: 12px; }
+.name { letter-spacing: -1px; margin-bottom: 12px; }
             .tagline { margin-bottom: 36px; }
             .coming-soon-badge { padding: 11px 22px; letter-spacing: 2px; gap: 8px; }
             .socials { gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 32px; }
@@ -217,8 +204,7 @@
         /* ── Small phones ── */
         @media (max-width: 480px) {
             .content { padding: 0 16px; }
-            .greeting { font-size: 12px; letter-spacing: 3px; margin-bottom: 12px; }
-            .name { font-size: clamp(36px, 12vw, 52px); letter-spacing: -1px; margin-bottom: 10px; }
+.name { font-size: clamp(36px, 12vw, 52px); letter-spacing: -1px; margin-bottom: 10px; }
             .tagline { font-size: 15px; margin-bottom: 28px; }
             .coming-soon-badge { padding: 10px 20px; font-size: 12px; letter-spacing: 2px; }
             .pulse-dot { width: 6px; height: 6px; }
@@ -236,8 +222,7 @@
 
         /* ── Short screens / landscape phones ── */
         @media (max-height: 500px) {
-            .greeting { margin-bottom: 8px; font-size: 11px; }
-            .name { font-size: clamp(28px, 7vw, 48px); margin-bottom: 8px; }
+.name { font-size: clamp(28px, 7vw, 48px); margin-bottom: 8px; }
             .tagline { font-size: 14px; margin-bottom: 16px; }
             .coming-soon-badge { padding: 8px 18px; font-size: 11px; }
             .socials { margin-top: 16px; }
@@ -263,7 +248,7 @@
 
     <div class="overlay">
         <div class="content">
-            <div class="greeting">Hello, World</div>
+
             <h1 class="name">Ayaan Merchant</h1>
             <p class="tagline">Something amazing is being crafted.</p>
             <div class="coming-soon-badge">
